@@ -6,7 +6,7 @@ Sometimes I think of revisiting these ideas.
 
 ## Building
 
-This is built on top of a custom and very old libdansdl2 bundled with the repo. 
+This is built on top of a custom and very old libdansdl2 bundled with the repo. It seems it has also some misplaced dependencies of SDL1.2.
 
 - Go into libdan2 and make -f makefile_linux
 - Copy the resulting libdansdl2.a file to the root of the project.
