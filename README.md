@@ -8,8 +8,8 @@ Sometimes I think of revisiting these ideas.
 
 This is built on top of a custom and very old libdansdl2 bundled with the repo. It seems it has also some misplaced dependencies of SDL1.2.
 
-- Go into libdan2 and make -f makefile_linux
+- Go into libdan2 and "make -f makefile_linux" (make sure you create the objects directory first)
 - Copy the resulting libdansdl2.a file to the root of the project.
-- make all in the root.
+- "make all" in the root (make sure you create the objects directory first!)
 - ./a.out
 
